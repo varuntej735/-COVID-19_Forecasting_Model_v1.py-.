@@ -1,2 +1,2 @@
-# Predictive-Modeling-of-COVID-19-Spread-Using-Linear-Regression.
+# Forecasting COVID-19 Trends Using Historical Data.
 The COVID-19 pandemic has impacted health and economies, making exact forecasts essential. This project uses a simple Linear Regression model to predict future COVID-19 cases and deaths based on past data. These predictions can guide policymakers in planning responses like lockdowns. It uses a Kaggle dataset with daily and weekly COVID-19 data..
