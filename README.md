@@ -1,2 +1,51 @@
-# Forecasting COVID-19 Trends Using Historical Data.
-The COVID-19 pandemic has significantly impacted global health and economies, necessitating accurate predictions for effective management. This project aims to develop a machine learning model using Kaggle's historical COVID-19 data, which includes case counts at country, state/province, and county levels, along with global statistics from Worldometer. By applying models such as Random Forest and Support Vector Machine (SVM), the project forecasts daily and weekly trends in cases and hospitalizations to assist authorities in resource management and planning. Data cleaning, preprocessing, and analysis have been carried out to ensure the model's reliability. This project highlights the role of data science in crisis response, offering actionable insights to stabilize communities and improve resource allocation through systematic, data-driven decision-making.
+**Forecasting COVID-19 Trends Using Historical Data**
+
+
+**Overview:** The use of machine learning algorithms to predict the number of COVID-19 cases in the US is examined in this research. Using historical data of confirmed cases, fatalities, and recoveries, the goal is to evaluate the predictive performance of several models, such as XGBoost, Random Forest, and Linear Regression.
+
+
+# Features:
+- **Pre-processing:** Filtering and Sorting, Feature Engineering and Missing Value Handling by aggregating asset-related columns.
+
+
+**Exploratory Data Analysis(EDA):**
+  - 7-day rolling averages for daily Confirmed and Deaths.
+  - Plotted 7-day rolling averages for daily Confirmed and Deaths.
+  - Created a heatmap to display relationships between numeric features. This helps identify highly correlated variables and understand the data's structure.
+
+**Machine learning models:**
+- XG Boost
+- Random forest regressor
+- Linear Regression
+**Evaluation metrics:**
+  - Mean squared error (MSE)
+  - R- squred
+
+**Dataset:**
+- Date
+- Country/Region
+- Confirmed
+- Deaths
+- Recovered
+- Active Cases
+- Latitude and Longitude
+
+**Preprocessing Steps:**
+- Selected features for modeling: New Cases, New Deaths, and Confirmed_7day_Avg.
+- Target variable: Confirmed.
+- Split the dataset into training and testing sets using an 80-20 ratio for model evaluation.
+- Trained models: XGBoost Regressor, Random Forest Regressor, and Linear Regression.
+- Evaluated models using metrics like Mean Squared Error (MSE) and R-squared (R²).
+- Plotted actual vs. predicted values for all models and compared their performance visually.
+
+**Prerequisites:**
+- Python 3.x
+
+
+**Required libraries:**
+  - pandas
+  - numpy
+  - sk-learn
+  - seaborn
+  - matplotlib
+  - xgboost
