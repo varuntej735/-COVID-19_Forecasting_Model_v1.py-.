@@ -1,7 +1,7 @@
 **Forecasting COVID-19 Trends Using Historical Data**
 
 
-**Overview:** The use of machine learning algorithms to predict the number of COVID-19 cases in the US is examined in this research. Using historical data of confirmed cases, fatalities, and recoveries, the goal is to evaluate the predictive performance of several models, such as XGBoost, Random Forest, and Linear Regression.
+**Overview:** The use of machine learning algorithms to predict the number of COVID-19 cases in the US is examined in this research. Using historical data of confirmed cases, deaths, and recoveries, the goal is to evaluate the predictive performance of several models, such as XGBoost, Random Forest, and Linear Regression.
 
 
 # Features:
@@ -10,13 +10,14 @@
 
 **Exploratory Data Analysis(EDA):**
   - 7-day rolling averages for daily Confirmed and Deaths.
-  - Plotted 7-day rolling averages for daily Confirmed and Deaths.
+  - Visualized monthly trends for Confirmed Cases, Deaths, and Recovered to observe long-term patterns.
   - Created a heatmap to display relationships between numeric features. This helps identify highly correlated variables and understand the data's structure.
 
 **Machine learning models:**
 - XG Boost
 - Random forest regressor
 - Linear Regression
+  
 **Evaluation metrics:**
   - Mean squared error (MSE)
   - R- squred
